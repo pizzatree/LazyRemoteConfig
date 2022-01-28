@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class Launch : MonoBehaviour
 {
-    [SerializeField] private TextAsset csv;
-    
     private void Awake()
     {
-        RemoteSettings.Init(csv);
+        RcHandler.Init();
+        
         Debug.Log("Launched");
     }
 }

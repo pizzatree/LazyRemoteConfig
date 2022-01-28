@@ -1,5 +1,0 @@
-key,type,value
-PlayerMoveSpeed,float,25
-PlayerJumpForce,float,100
-SpawnBuffer,float,0.75
-BulletSpeed,float,25
